@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "toggle-toggle",
+  "version": "${version}",
+  "name": "Toggle²",
+  "description": "Lets you toggle the accessibility option to hold sneak by double-tapping sneak.",
+  "authors": [
+    "AppleTheGolden"
+  ],
+  "contact": {
+    "sources": "https://github.com/Scotsguy/toggle-toggle"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "toggle-toggle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "minecraft": ">=1.15-"
+  }
+}

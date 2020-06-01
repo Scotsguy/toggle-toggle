@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.github.scotsguy.toggletoggle.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "KeyboardInputAccess",
+    "KeyBindingAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
